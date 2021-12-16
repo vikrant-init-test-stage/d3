@@ -4,10 +4,10 @@ preRun:
   - yarn install            # Mention pre-run steps here
 postMerge:
   pattern:
-    - "./test/**/*-test.js" # Glob pattern to path where tests that should run post-merge are written.
+    - "./test/*.js" # Glob pattern to path where tests that should run post-merge are written.
 preMerge:
   pattern:
-    - "./test/**/*-test.js" # Glob pattern to path where tests that should run pre-merge are written.
+    - "./test/*.js" # Glob pattern to path where tests that should run pre-merge are written.
 postRun:
   - yarn -version        # Mention post-run steps here
 version: 1.0
