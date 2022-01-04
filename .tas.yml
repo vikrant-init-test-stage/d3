@@ -1,11 +1,11 @@
 framework: mocha
 tier: xlarge
-postMerge:
+postMerge: 
   pattern: 
-    - "./test/d3-test.js"
+    - "./test/*-test.js"
 preMerge:
   pattern:
-    - "./test/d3-test.js"
+    - "./test/*-test.js"
 preRun:
      command:
         - yarn install
