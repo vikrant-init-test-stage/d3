@@ -2,7 +2,7 @@ framework: mocha
 tier: xlarge
 postMerge:
   pattern: 
-    - "./test/d3-test.js
+    - "./test/d3-test.js"
 preMerge:
   pattern:
     - "./test/d3-test.js"
