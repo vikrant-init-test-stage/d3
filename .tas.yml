@@ -1,15 +1,14 @@
 framework: mocha
-tier: xlarge
-postMerge: 
+postMerge:
   pattern: 
-    - "./test/*-test.js"
+    - "./test/**/*-test.js"
 preMerge:
   pattern:
-    - "./test/*-test.js"
+    - "./test/**/*-test.js"
 preRun:
      command:
         - yarn install
 postRun:
      command:
         - yarn --version
-version: 2.0
+version: 1.0
