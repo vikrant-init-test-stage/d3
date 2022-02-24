@@ -1,13 +1,14 @@
+---
 framework: mocha
-postMerge:
-  pattern: 
-    - "./test/**/*-test.js"
-preMerge:
-  pattern:
-    - "./test/**/*-test.js"
 preRun:
      command:
         - yarn install
+preMerge:
+  pattern:
+    - "./test/**/*-test.js"
+postMerge:
+  pattern: 
+    - "./test/**/*-test.js"
 postRun:
      command:
         - yarn --version
