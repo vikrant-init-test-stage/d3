@@ -20,7 +20,6 @@
     "name": "Mike Bostock",
     "url": "https://bost.ocks.org/mike"
   },
-  "type": "module",
   "files": [
     "dist/**/*.js",
     "src/**/*.js"
